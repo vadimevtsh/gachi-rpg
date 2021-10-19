@@ -1,1 +1,7 @@
 *.code-workspace
+*.sln
+**/bin
+**/obj
+**/*.csproj
+.vscode
+Tests
