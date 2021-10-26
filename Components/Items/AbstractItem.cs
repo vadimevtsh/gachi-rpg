@@ -1,14 +1,8 @@
 namespace Items
 {
   public abstract class AbstractItem {
-    private readonly string _name;
-
-    public string Name {
-      get {
-        return _name;
-      }
-    }
-
+    public virtual string Name { get; }
+    public virtual uint Weight { get; }
 
   }
 

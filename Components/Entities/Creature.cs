@@ -5,17 +5,6 @@ namespace Entities
   public abstract class Creature : Entity {
     private static readonly double MOVE_SPEED_MULTIPLIER = 1.2;
     private int _damage;
-    private uint _health;
-
-    public virtual uint Health {
-      get {
-        return _health;
-      }
-
-      set {
-        _health = value;
-      }
-    }
 
 
     private uint _strength;
