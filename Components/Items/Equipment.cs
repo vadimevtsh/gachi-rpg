@@ -1,5 +1,4 @@
-namespace Items
-{
+namespace Items {
   public class Equipment {
     public Weapon Weapon { get; set; }
     public Helmet Helmet { get; set; }
